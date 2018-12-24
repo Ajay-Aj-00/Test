@@ -23,4 +23,4 @@
 > In Those 3 conditions<br>
 > 1 Provides us Reading Rights of Flag([Reading authorization](https://github.com/Ajay-Aj-00/Test/tree/master/authR_Exploit))<br>
 > 2 Provides us Writing Rights of Flag([Writing authorization](https://github.com/Ajay-Aj-00/Test/tree/master/authW_Exploit))<br>
-> Now The name `authrw` is making sense `authrization for Reading and Writing`<br>
+## Now the name `authrw` is making sense `authrization for Reading and Writing`<br>
