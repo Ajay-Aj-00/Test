@@ -7,4 +7,4 @@
 * For the Register it will Asks the user for **username** (username != 'admin')
 * Then It Encrypts the `pad("username=input():role=ordinary")` with AES CBC 128-bit Encryption
 * After that It returns a cookie which is `"IV+Cipher_text".encode('hex')`
-* [Register](https://raw.githubusercontent.com/Ajay-Aj-00/Test/master/Images/3.png "Register")
+[Register](https://raw.githubusercontent.com/Ajay-Aj-00/Test/master/Images/3.png "Register")
