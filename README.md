@@ -9,7 +9,7 @@
 * After that It returns a cookie which is `"IV+Cipher_text".encode('hex')`
 ![Register](https://raw.githubusercontent.com/Ajay-Aj-00/Test/master/Images/3.png "Register")
 > Analyze the cookie
-> ![Register](https://raw.githubusercontent.com/Ajay-Aj-00/Test/master/Images/Screenshot%20from%202018-12-24%2017-06-23.png "Register")
+ ![Register](https://raw.githubusercontent.com/Ajay-Aj-00/Test/master/Images/S.png "Register")
 ### 2 - Login
 * For the Login it wills asks for cookie(Provided after registration)
 * Then It Decrypts it , unpad it >> `username=(username):role=ordinary` and It parses the string and saves username and role in user , role variables
