@@ -20,3 +20,7 @@
 * Here Comes the Problem We cant give the 'admin' as username while registering Then we cant get user as 'admin' so we move to else condition.
 * But the `Vulnerbility is It is giving the IV to us in cookie` , So if we change the first 16 bytes(IV) which leads to XOR with second 16 bytes in which we have username
 * This is [AES CBC bit flipping Attack](https://masterpessimistaa.wordpress.com/2017/05/03/cbc-bit-flipping-attack/)
+> In Those 3 conditions<br>
+> 1 Provides us Reading Rights of Flag([Reading authorization](https://github.com/Ajay-Aj-00/Test/tree/master/authR_Exploit))<br>
+> 2 Provides us Writing Rights of Flag([Writing authorization](https://github.com/Ajay-Aj-00/Test/tree/master/authW_Exploit))<br>
+> Now The name `authrw` is making sense `authrization for Reading and Writing`<br>
