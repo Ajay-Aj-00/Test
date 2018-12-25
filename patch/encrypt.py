@@ -93,7 +93,7 @@ if __name__ == "__main__":
         username = raw_input("[*] Enter username: ")
         print ""
         try:
-            assert username != "admin"
+            assert "admin" not in username ## First Patch ##
         except:
             print colors.red + "[-] Username cannot be admin" + colors.reset
             sys.exit(0)
@@ -101,7 +101,7 @@ if __name__ == "__main__":
     elif choice == 2:
         print "[*] Enter your cookie (hex): "
         _cookie = raw_input()
-        print ""
+        assert _cookie[:32] == iv.encode('hex') ## Second Patch ##
         user, role = login(_cookie)
 
         if user == "admin" and role == "ordinary":
