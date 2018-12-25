@@ -6,4 +6,4 @@
 * Like this we can prevent the username from being a 'admin'.
 * Without `username == 'admin'` . The `role=admin'` injection doesn't make any sense.
 * So No need to look at role injection
-#### Patched File :: [encrypt.py]()
+#### Patched File :: [encrypt.py](https://github.com/Ajay-Aj-00/Test/blob/master/patch/encrypt.py)
