@@ -23,4 +23,4 @@
 > 1 Provides us Reading rights of Flag([Reading authorization](https://github.com/Ajay-Aj-00/Test/tree/master/authR_Exploit))<br>
 > 2 Provides us Writing rights of Flag([Writing authorization](https://github.com/Ajay-Aj-00/Test/tree/master/authW_Exploit))<br>
 ## Now the name `authrw` is making sense `authrization for Reading and Writing`<br>
-* Defense is also a important thing as Attacking . So we have to [patch](https://github.com/Ajay-Aj-00/Test/tree/master/patch) the Vulnerabilities.
+* Defending our services is also important. So we have to [patch](https://github.com/Ajay-Aj-00/Test/tree/master/patch) the Vulnerabilities.
