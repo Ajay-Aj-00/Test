@@ -11,7 +11,7 @@
 > Analyze the cookie
  ![Register](https://raw.githubusercontent.com/Ajay-Aj-00/Test/master/Images/S.png "Register")
 ### 2 - Login
-* For the Login it wills asks for cookie(Provided after registration)
+* For the Login it will asks for cookie(Provided after registration)
 * Then It Decrypts it , unpad it >> `username=(username):role=ordinary` and It parses the string and saves username and role in user , role variables
 > After All these There are Three conditions to check the `user,role values`<br>
 > 1 `user=='admin' and role=='ordinary'`<br>
