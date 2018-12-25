@@ -6,3 +6,4 @@
 * Like this we can prevent the username from being a 'admin'.
 * Without `username == 'admin'` . The `role=admin'` injection doesn't make any sense.
 * So No need to look at role injection
+#### Pathched File :: [encrypt.py]()
