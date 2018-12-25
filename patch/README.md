@@ -1,5 +1,5 @@
 * Here in patching we have to block the `AES CBC bit flipping attack`.
-* For that checking the cookie[:32] is best thing >> `assert cookie[:32] == iv.encode('hex')`.Because for AES CBC attck is not possible without changing the cookie's first part.
+* For that checking the cookie[:32] is best thing >> `assert cookie[:32] == iv.encode('hex')`.Because for AES CBC attack is not possible without changing the cookie's first part.
 ------------------
 * Without AES CBC attck the attacker has to give 'admin' string directly.
 * So we modify the `assert username != 'admin' to `assert username[:5] == 'admin'`
